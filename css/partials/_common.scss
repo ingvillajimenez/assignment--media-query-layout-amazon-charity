@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: $color-alto;
+  text-align: center;
+
+  &__img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+  }
+}
+
+.container {
+  border: 1px solid $color-alto;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 20px;
+
+  &__img-profile {
+    width: 100%;
+  }
+}

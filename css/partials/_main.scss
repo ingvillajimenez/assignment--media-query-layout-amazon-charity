@@ -1,0 +1,21 @@
+%main-title {
+  font-family: 'PT Mono', monospace;
+  color: $color-tropical-rain-forest;
+}
+
+%main-description {
+  font-family: 'Roboto', sans-serif;
+  color: $color-black-forest;
+  @include fontSize(15px);
+}
+
+.main {
+
+  &__title {
+    @extend %main-title;
+  }
+
+  &__description{
+    @extend %main-description;
+  }
+}
